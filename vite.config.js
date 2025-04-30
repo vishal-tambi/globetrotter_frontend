@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://globetrotter-backend-31lk.onrender.com/',
+        target: 'https://globetrotter-backend-31lk.onrender.com',
         changeOrigin: true,
         secure: false
       }
